@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <i><p id="message-el">Want to play a round?</p></i>              
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <p id="dealerhand-el">Dealer Sum:</p>
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()">DRAW CARD</button>        
+        <button onclick="newRound()">NEW ROUND</button>  
+        <button id = "dealer" onclick="showDealerHand()">STAY AND SHOW DEALER HAND</button>     
+        <button id = "dealer" onclick="dealerNewCard()">DEALER DRAW CARD</button>   
+        <p id = "player-el"></p> 
+        <p id = "win-el"></p>         
+        <script src="index.js"></script>
+    </body>
+</html>
